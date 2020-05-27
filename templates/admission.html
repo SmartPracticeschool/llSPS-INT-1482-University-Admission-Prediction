@@ -1,0 +1,45 @@
+<html>
+<style>
+body {
+  background-image: url('https://media-exp1.licdn.com/dms/image/C561BAQEsstQPCgUXvA/company-background_10000/0?e=2159024400&v=beta&t=N8sfODuOhgU-aQ8i4SXfxOWIfR4Pdd-SQaq4JPXNcWo');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+<body >
+
+<form action = "http://localhost:5000/y_predict" method = "post">
+
+<center>
+
+<h1 style="color:black;font-size:60px;font-family:verdana;">UNIVERSITY ADMISSION PREDICTION  </h1>
+<p style="color:black;font-size:18px;font-family:verdana;">
+GRE Score   </p>
+<p  ><input type = "text" name = "gre" style="font-size:18px;font-family:verdana;"/></p>
+<p style="color:black;font-size:18px;font-family:verdana;">
+TOEFL Score </p>
+<p ><input type = "text" name = "toefl" style="font-size:18px;font-family:verdana;"/></p>
+<p style="color:black;font-size:18px;font-family:verdana;">
+University Ranking </p>
+<p ><input type = "text" name = "ur" style="font-size:18px;font-family:verdana;"/></p>
+<p style="color:black;font-size:18px;font-family:verdana;">
+SOP </p>
+<p ><input type = "text" name = "sop" style="font-size:18px;font-family:verdana;"/></p>
+<p style="color:black;font-size:18px;font-family:verdana;" >
+LOR </p>
+<p><input type = "text" name = "lor" style="cfont-size:18px;font-family:verdana;"/></p>
+<p style="color:black;font-size:18px;font-family:verdana;">
+CGPA </p>
+<p><input type = "text" name = "cgpa" style="font-size:18px;font-family:verdana;"/></p>
+<p style="color:black;font-size:18px;font-family:verdana;">
+Research </p>
+<p><input type = "text" name = "research" style="font-size:18px;font-family:verdana;"/></p>
+
+
+<p><input type = "submit" value = "Predict changes" style="color:black;font-size:18px;font-family:verdana;"/></p>
+</form>
+<b style="color:black;font-size:18px;font-family:verdana;">{{showcase}}</b>
+</center>
+</body>
+</html>
